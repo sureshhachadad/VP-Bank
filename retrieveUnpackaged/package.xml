@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <members>makerResponseClass</members>
+		<members>opportunityTriggerHandler</members>
+		<members>opportunityTriggerHandlerTestClass</members>
+		<members>makerResponseTestClass</members>
+		<members>recursiveTriggerHandler</members>
+        <name>ApexClass</name>
+    </types>
+	
+	<types>
+        <members>CheckerDigitalCmp</members>
+		<members>CheckerPhysicalCmp</members>
+		<members>eKYCMakerReview</members>
+		<members>eKYCVerification</members>
+		<members>KycCustomerDetailsCmp</members>
+		<members>KycCustomerInfo</members>
+		<members>MackerCmp</members>
+		<members>MakerPhyVal</members>
+		<members>NonVietnam</members>
+		<members>ReviseInfo2</members>
+		<members>VietnamCmp</members>
+		<members>VietnamReadOnly</members>
+		
+        <name>AuraDefinitionBundle</name>
+    </types>
+
+
+
+
+	<types>
+        <members>eKYCStorage</members>
+		<members>Maker_and_Cheker_Page</members>
+		<members>Opportunity_KYC_Record_Page</members>
+		<members>Opportunity_Record_Page</members>
+		<members>Opportunity_Record_Page1</members>
+        <name>FlexiPage</name>
+    </types>
+
+	<types>
+        <members>Opportunity-eKYC</members>
+		<members>mFino__mdt-mFino Layout</members>
+		<members>Opportunity-eKYCStorage</members>
+		<members>Opportunity-KYC Flow</members>
+		<members>Opportunity-KYC FOS</members>
+		<members>Opportunity-KYC Maker and Checker</members>
+		<members>Opportunity-KYC Supervisor</members>
+		<members>Opportunity-Opportunity Layout</members>
+        <name>Layout</name>
+    </types>
+
+	<types>
+        
+        <members>Opportunity</members>
+		<members>mFino__mdt</members>
+		<members>supervisor_assignment__c</members>
+		<members>Checker__c</members>
+		<members>fos_allocation__c</members>
+		<members>Maker_backoffice__c</members>
+		<members>OppCounter__c</members>
+		<members>ProvinceDistrictMapping__c</members>
+		
+        <name>CustomObject</name>
+    </types>
+
+
+
+
+    <types>
+        <members>opportunityTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+
+
+
+
+
+	<types>
+		<members>Opportunity.Checker_Change_Owner_Restrict</members>
+		<members>Opportunity.Checker_South_Owner_Change</members>
+		<members>Opportunity.Current_Address_Mandatory</members>
+		<members>Opportunity.Current_District_Mandatory</members>
+		<members>Opportunity.Current_Province_Mandatory</members>
+		<members>Opportunity.Expiry_Date</members>
+		<members>Opportunity.Issue_date</members>
+		<members>Opportunity.Maker_Change_Owner_Restrict</members>
+		<members>Opportunity.Mandatory_Id_Proof</members>
+		<members>Opportunity.Mandatory_Issue_date</members>
+		<members>Opportunity.Mandatory_National_ID</members>
+		<members>Opportunity.Mandatory_Reason_for_rejection_for_FOS</members>
+		<members>Opportunity.Mandatory_Resident</members>
+		<members>Opportunity.Mandatory_Valid_Upto</members>
+		<members>Opportunity.Opp_Name_not_editable</members>
+		<members>Opportunity.Owner_Change_Restriction_to_BO</members>
+		<members>Opportunity.Owner_restriction_for_FOS</members>
+		<members>Opportunity.Permanent_District_Mandatory</members>
+		<members>Opportunity.Permanent_Province_Mandatory</members>
+		<members>Opportunity.Permanent_Resident_Address_Mandatory</members>
+		<members>Opportunity.Rejected_KYC_Tickets</members>
+		<members>Opportunity.Required_Email</members>
+		<members>Opportunity.Required_Expiry_Date</members>
+		<members>Opportunity.Required_Issue_place_of_national_id</members>
+		<members>Opportunity.Required_Occupation</members>
+		<members>Opportunity.Required_Place_of_Issueing_visa</members>
+		<members>Opportunity.Required_Position</members>
+		<members>Opportunity.Required_VisaResident_Number</members>
+		<members>Opportunity.USTIN</members>		
+		<name>ValidationRule</name>
+    </types> 
+
+
+	<types>
+		<members>Opportunity.eKYC</members>
+		<members>Opportunity.eKYCStorage</members>
+		<members>Opportunity.KYC</members>
+        <name>RecordType</name>
+    </types>
+
+
+
+	<types>
+          <members>*</members>
+          <name>Role</name>
+    </types>
+
+
+
+	<types>
+          <members>*</members>
+          <name>CustomLabel</name>
+    </types>
+
+
+	<types>
+		  <members>mFino.Account_Detail</members>
+		  <members>mFino.Customer_Detail</members>
+		  <members>mFino.Transaction_Detail</members>
+		  <members>mFino.Transaction_Search_Detail</members>
+		  <members>mFino.Update_customer_api</members>
+		 
+		  <name>CustomMetadata</name>
+	</types>
+
+
+
+
+	<types>
+        <members>mFino__mdt.mFinoAPIs</members>
+		<members>Checker__c.Checkers</members>
+		<members>fos_allocation__c.FOS</members>
+		<members>Maker_backoffice__c.Makers</members>
+		<members>supervisor_assignment__c.Sup_Assignment</members>
+		<members>ProvinceDistrictMapping__c.View_All_Status</members>
+        <name>ListView</name>
+   </types>
+
+
+	<types>
+      	<members>Previous_Owner</members>		
+		<members>Latest_Update</members>
+        <name>Flow</name>
+    </types>
+
+
+
+
+
+    <version>28.0</version>
+</Package>
