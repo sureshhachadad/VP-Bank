@@ -28,7 +28,9 @@
 	<target name="deployPartialCopy">
       <mkdir dir="retrieveUnpackaged"/>
       <!-- Deploy the contents into another directory -->
-      <sf:deploy username="${sf.usernamedev02}" password="${sf.passworddev02}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl2}" maxPoll="${sf.maxPoll}" deployRoot="retrieveUnpackaged" rollbackOnError="true" checkOnly="true" >
+      <sf:deploy username="${sf.usernamedev02}" password="${sf.passworddev02}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl2}" maxPoll="${sf.maxPoll}" deployRoot="retrieveUnpackaged" rollbackOnError="true" testLevel="RunSpecifiedTests" checkOnly="true" >
+	  <runTest>opportunityTriggerHandlerTestClass</runTest>
+	  <runTest>makerResponseTestClass</runTest>
 	  </sf:deploy>
 	</target>
 	
